@@ -20,6 +20,8 @@ F.nu=1;
 F.f_sm=0.001;
 
 
+
+
 % Create a meshgrid for chi
 chi_min = exp(F.m_phi - 3 * F.sigma_phi); % Minimum value of x
 chi_max = exp(F.m_phi + 3 * F.sigma_phi); % Maximum value of x
@@ -28,6 +30,8 @@ chi_values = linspace(chi_min, chi_max, N);
 F.latent_SM=1/N*ones(N,N);
 
 [m_1,Delta,Phi, Delta_H]=period1(F,chi_values);
+%%
+%CWEHDADFHAKSFJKA
 
 %%
 init.Delta=Delta;
