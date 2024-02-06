@@ -31,7 +31,7 @@ F.latent_SM=1/N*ones(N,N);
 
 [m_1,Delta,Phi, Delta_H]=period1(F,chi_values);
 %%
-%CWEHDADFHAKSFJKA
+%gdlagmlk
 
 %%
 init.Delta=Delta;
